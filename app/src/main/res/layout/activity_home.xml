@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:visibility="visible"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="320dp"
+        android:layout_height="111dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="202dp"
+        android:fontFamily="@font/biryani_bold"
+        android:text="@string/navapp"
+        android:textAlignment="center"
+        android:textColor="#20639B"
+        android:textSize="70sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="419dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/welcome"
+        android:layout_alignStart="@id/welcome"
+        android:layout_alignTop="@id/welcome"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="false"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="121dp"
+        android:layout_marginRight="0dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Please Select an Option"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#415260"
+        android:textSize="35sp" />
+
+    <Button
+        android:id="@+id/rider_btn"
+        android:layout_width="183dp"
+        android:layout_height="232dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="223dp"
+        android:layout_marginEnd="-361dp"
+        android:layout_marginBottom="-6dp"
+        android:layout_toStartOf="@+id/welcome"
+        android:background="#20639B"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/rider"
+        android:textColor="@android:color/white"
+        android:textSize="36sp" />
+
+    <Button
+        android:id="@+id/driver_btn"
+        android:layout_width="183dp"
+        android:layout_height="226dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-363dp"
+        android:layout_marginEnd="0sp"
+        android:layout_marginBottom="0dp"
+        android:layout_toEndOf="@+id/welcome"
+        android:background="#20639B"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/driver"
+        android:textColor="@android:color/white"
+        android:textSize="36sp" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="?android:attr/listDivider" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="271dp"
+        android:layout_height="95dp"
+        android:layout_alignTop="@id/welcome"
+        android:layout_alignParentBottom="false"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-142dp"
+        android:fontFamily="@font/biryani_bold"
+        android:text="Welcome to"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#415260"
+        android:textSize="40sp" />
+
+</RelativeLayout>

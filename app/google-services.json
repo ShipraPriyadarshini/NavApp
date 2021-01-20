@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1095150390442",
+    "firebase_url": "https://navapp-fc561.firebaseio.com",
+    "project_id": "navapp-fc561",
+    "storage_bucket": "navapp-fc561.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1095150390442:android:c38c58311a8a1b2497d4d3",
+        "android_client_info": {
+          "package_name": "edu.nyit.navapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1095150390442-6o9vftdmhonvf6btesud6c9kj2ppetfl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.nyit.navapp",
+            "certificate_hash": "42c3a401a4b7c00588640dc54644570068882038"
+          }
+        },
+        {
+          "client_id": "1095150390442-ae4hrik640m9d8jpu8r3ss55l30ue109.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAS4xHj2QndgSMZBjWGO6SjEiGa1T8fPHo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1095150390442-ae4hrik640m9d8jpu8r3ss55l30ue109.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

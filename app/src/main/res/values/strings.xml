@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">NavApp</string>
+    <string name="firebase_id">navapp-fc561</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="get_a_ride">Get A Ride</string>
+    <string name="navapp">NavApp</string>
+    <string name="made_by_techconnect">Made By TechConnect</string>
+    <string name="rider">Rider</string>
+    <string name="driver">Driver</string>
+    <string name="who_are_you">Who are you?</string>
+    <string name="rider_login">Rider Login</string>
+    <string name="driver_login">Driver Login</string>
+    <string name="enter_email_id">Enter Email-Id</string>
+    <string name="password">Password</string>
+    <string name="new_user">New User</string>
+    <string name="login">Login</string>
+    <string name="contact_number">Contact Number</string>
+    <string name="last_name">Last Name</string>
+    <string name="first_name">First Name</string>
+    <string name="submit">Submit</string>
+</resources>
